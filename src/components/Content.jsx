@@ -26,6 +26,10 @@ function Content() {
 
         <div className="invisible" />
 
+        <div className="invisible" />
+
+        <div className="cursor-pointer" />
+
         <div className="w-56 h-80 bg-neutral-800/50 hover:bg-neutral-100/10 cursor-pointer transition rounded-lg px-4 py-3 gap-4 flex flex-col items-center">
           <img
             className="size-48 rounded"
