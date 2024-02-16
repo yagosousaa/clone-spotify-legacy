@@ -5,7 +5,11 @@ function Content() {
     <div className="py-6 px-10">
       <h1 className="text-3xl font-semibold text-white pb-6">Playlists</h1>
       <div className="grid grid-cols-[14rem_14rem_14rem_14rem_14rem] grid-rows-2 gap-14">
+<<<<<<< HEAD
         <div className="text-white w-[32rem] h-80 bg-gradient-to-br hover:from-indigo-800 hover:to-indigo-200 cursor-pointer transition from-indigo-900 to-indigo-300 flex flex-col justify-between p-5 rounded-lg">
+=======
+        <div className="text-white w-[32rem] h-80 bg-gradient-to-br hover:from-indigo-800 transition hover:to-indigo-200 cursor-pointer transition from-indigo-900 to-indigo-300 flex flex-col justify-between p-5 rounded-lg">
+>>>>>>> cc3ca551f408cfd8ae5746b9c2a4ac9f467f5f8f
           <div>
             <h2 className="text-xl pt-16 text-white/60 font-medium">
               <strong>Adekunle Gold </strong>Here For Ya •
@@ -25,7 +29,11 @@ function Content() {
           </div>
         </div>
 
+<<<<<<< HEAD
         <div className="invisible" />
+=======
+        <div className="cursor-pointer" />
+>>>>>>> cc3ca551f408cfd8ae5746b9c2a4ac9f467f5f8f
 
         <div className="w-56 h-80 bg-neutral-800/50 hover:bg-neutral-100/10 cursor-pointer transition rounded-lg px-4 py-3 gap-4 flex flex-col items-center">
           <img
