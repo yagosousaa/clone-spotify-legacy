@@ -4,7 +4,13 @@ function Content() {
   return (
     <div className=" overflow-scroll h-screen w-full py-6 px-10  bg-gradient-to-t to-neutral-900 from-neutral-950">
       <h1 className="text-3xl font-semibold text-white pb-6">Playlists</h1>
-      <div className="grid grid-cols-[14rem_14rem_14rem_14rem_14rem_14rem_14rem_14rem] grid-rows-2 gap-14">
+      <div
+        className="grid 
+      2xl:grid-cols-[14rem_14rem_14rem_14rem_14rem] 
+      xl:grid-cols-[14rem_14rem_14rem_14rem] 
+      lg:grid-cols-[14rem_14rem_14rem]
+      gap-14"
+      >
         <div className="text-white w-[32rem] h-80 bg-gradient-to-br hover:from-indigo-800 transition hover:to-indigo-200 cursor-pointer from-indigo-900 to-indigo-300 flex flex-col justify-between p-5 rounded-lg">
           <div>
             <h2 className="text-xl pt-16 text-white/60 font-medium">
@@ -25,10 +31,6 @@ function Content() {
         </div>
 
         <div className="invisible" />
-
-        <div className="invisible" />
-
-        <div className="cursor-pointer" />
 
         <div className="w-56 h-80 bg-neutral-800/50 hover:bg-neutral-100/10 cursor-pointer transition rounded-lg px-4 py-3 gap-4 flex flex-col items-center">
           <img
@@ -95,6 +97,7 @@ function Content() {
               Julia Wolf, Khalid,
               <br /> ayokay and more
             </p>
+            <div className="h-40" />
           </div>
         </div>
       </div>

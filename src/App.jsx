@@ -7,7 +7,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="overflow-hidden flex">
+    <div className="overflow-hidden flex bg-gradient-to-t to-neutral-900 from-neutral-950">
       <Navbar />
       <div className="flex flex-col h-screen w-screen">
         <Header />
