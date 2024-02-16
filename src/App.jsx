@@ -1,21 +1,17 @@
-import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Player from "./components/Player";
 import Content from "./components/Content";
+import Header from "./components/Header";
 
 import "./index.css";
 
 function App() {
   return (
-    <div className="bg-gradient-to-t to-neutral-900 from-neutral-950 h-screen flex flex-col justify-between">
-      <section className="flex h-full">
-        <Navbar />
-        <div className="w-full flex flex-col">
-          <Header />
-          <Content />
-        </div>
-      </section>
-      <div>
+    <div className="overflow-hidden flex">
+      <Navbar />
+      <div className="flex flex-col h-screen w-screen">
+        <Header />
+        <Content />
         <Player />
       </div>
     </div>

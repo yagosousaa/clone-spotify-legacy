@@ -1,8 +1,10 @@
+import Playlist from "./Playlist";
+
 import "../index.css";
 
 function Navbar() {
   return (
-    <aside className="bg-black h-full w-80 overflow-hidden flex flex-col items-center">
+    <aside className="bg-black w-72 sticky top-0 flex flex-col items-center">
       <section className="mr-10">
         <nav className="flex flex-col gap-6 font-regular mb-12 mt-16">
           <a className="flex gap-5 text-normal items-center text-zinc-200 cursor-pointer group">
@@ -66,17 +68,6 @@ function Navbar() {
         </nav>
       </section>
       <div className="border-t-[1px] opacity-15 my-4 w-10/12" />
-
-      <div className="mr-10 flex flex-col space-y-4 text-normal text-zinc-400">
-        <a className="cursor-pointer transition hover:text-white">Jazz</a>
-        <a className="cursor-pointer transition hover:text-white">Metal</a>
-        <a className="cursor-pointer transition hover:text-white">Indie</a>
-        <a className="cursor-pointer transition hover:text-white">Rock</a>
-        <a className="cursor-pointer transition hover:text-white">
-          Your Top Songs 2023
-        </a>
-        <a className="cursor-pointer transition hover:text-white">Orchestra</a>
-      </div>
     </aside>
   );
 }

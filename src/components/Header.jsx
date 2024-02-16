@@ -2,7 +2,7 @@ import "../index.css";
 
 function Header() {
   return (
-    <header className="bg-neutral-950 w-full h-20 flex items-center gap-3 justify-between">
+    <header className="bg-neutral-950 h-20 flex items-center gap-3 sticky top-[-0.5px] justify-between">
       <div className="flex items-center">
         <div className="flex gap-5 px-8">
           <div className="bg-black transition hover:bg-zinc-800 size-10 cursor-pointer rounded-full flex items-center justify-center">

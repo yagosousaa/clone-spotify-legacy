@@ -2,7 +2,7 @@ import "../index.css";
 
 function Player() {
   return (
-    <footer className="bg-neutral-900 w-screen h-28 m-auto text-zinc-400 flex items-center justify-between">
+    <footer className="bg-neutral-900 w-full absolute left-0 -bottom-[0.5px] h-28 text-zinc-400 flex items-center justify-between">
       <div className="flex px-5">
         <div className="flex">
           <img
