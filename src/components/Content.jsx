@@ -1,13 +1,11 @@
-import Header from "./Header.jsx";
-
 import "../index.css";
 
 function Content() {
   return (
     <div className=" overflow-scroll h-screen w-full py-6 px-10  bg-gradient-to-t to-neutral-900 from-neutral-950">
       <h1 className="text-3xl font-semibold text-white pb-6">Playlists</h1>
-      <div className="grid grid-cols-[14rem_14rem_14rem] grid-rows-2 gap-14">
-        <div className="text-white w-[32rem] h-80 bg-gradient-to-br hover:from-indigo-800 hover:to-indigo-200 cursor-pointer transition from-indigo-900 to-indigo-300 flex flex-col justify-between p-5 rounded-lg">
+      <div className="grid grid-cols-[14rem_14rem_14rem_14rem_14rem_14rem_14rem_14rem] grid-rows-2 gap-14">
+        <div className="text-white w-[32rem] h-80 bg-gradient-to-br hover:from-indigo-800 transition hover:to-indigo-200 cursor-pointer from-indigo-900 to-indigo-300 flex flex-col justify-between p-5 rounded-lg">
           <div>
             <h2 className="text-xl pt-16 text-white/60 font-medium">
               <strong>Adekunle Gold </strong>Here For Ya •
