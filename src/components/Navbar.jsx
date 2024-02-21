@@ -68,6 +68,9 @@ function Navbar() {
         </nav>
       </section>
       <div className="border-t-[1px] opacity-15 my-4 w-10/12" />
+      <div className="overflow-scroll h-screen">
+        <Playlist />
+      </div>
     </aside>
   );
 }

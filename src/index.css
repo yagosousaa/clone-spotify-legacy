@@ -4,15 +4,11 @@
 
 ::-webkit-scrollbar {
   background-color: transparent;
-  width: 0.7rem;
+  width: 0;
 }
 
 ::-webkit-scrollbar:horizontal {
   height: 0;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgb(62 62 62 / 0.8);
 }
 
 body {
